@@ -1,0 +1,39 @@
+.mainText{
+    font-family: 'Graphik';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    padding-top: 159px;
+
+}
+
+.text{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.landBtn{
+    font-family: 'Graphik';
+    width: 236px;
+    height: 52px;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    background: #2091F9;
+    border-radius: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 90px;
+    border-color: #2091F9;
+}
+
+.Btn{
+    text-align: center;
+}

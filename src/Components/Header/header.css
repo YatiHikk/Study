@@ -1,0 +1,22 @@
+.header{
+    width: 1210px;
+    height: 156px;
+    flex: none;
+}
+
+.desktopMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    flex-wrap: wrap;
+    padding: 67px 0;
+    background-color: black;
+}
+
+.title-1{
+    font-size: 15px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
