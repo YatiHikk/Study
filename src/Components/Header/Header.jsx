@@ -1,18 +1,17 @@
 import './header.css';
+import logo from './picture/logo.svg';
+import './picture/Vector.svg'
+import HeaderMenuLinkList from '../HeaderMenuLinkList/HeaderMenuLinkList'
 
 const Header = () => {
 
     return <header className='header'>
-        <div className='desktopMenu'>
-            <a href="#" className="title-1">Home</a>
-            <a href="#" className="title-1">Product</a>
-            <a href="#" className="title-1">Pricing</a>
-            <a href="#" className="title-1">About</a>
-            <a href="#" className="title-1">Contact</a>
+        <div>
+        <HeaderMenuLinkList />
 
         <img
-        className='Logo'
-        src='./picture/logo.png'
+        className='desktop__menu-logo'
+        src={logo}
         alt='logo'
         />
             <img
